@@ -10,28 +10,26 @@ namespace senai_lovePets_webApi.Repositories
 {
     public class PetRepository : IPetRepository
     {
-
         lovePetsContext ctx = new lovePetsContext();
 
         public void Atualizar(int idPet, Pet PetAtualizado)
         {
-           Pet petBuscar = BuscarPorId(idPet);
+            Pet PetBuscar = BuscarPorId(idPet);
 
             if (PetAtualizado.NomePet != null)
             {
-                petBuscar.NomePet = PetAtualizado.NomePet;
+                PetBuscar.NomePet = PetAtualizado.NomePet;
             }
 
-            if (PetAtualizado.DataNascimento <= DateTime.Now)
+            if (PetAtualizado.DataNascimento <= DateTime.Today)
             {
-                petBuscar.DataNascimento = PetAtualizado.DataNascimento;
+                PetBuscar.DataNascimento = PetAtualizado.DataNascimento;
             }
 
-            if (PetAtualizado.Ra !=null)
+            if (PetAtualizado.Ra != null)
             {
-                petBuscar.Ra = PetAtualizado.Ra;
+                PetBuscar.Ra = PetAtualizado.Ra;
             }
-
         }
 
         public Pet BuscarPorId(int idPet)

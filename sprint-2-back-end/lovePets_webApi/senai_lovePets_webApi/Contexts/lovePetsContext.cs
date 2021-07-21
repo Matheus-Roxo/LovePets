@@ -20,7 +20,7 @@ namespace senai_lovePets_webApi.Contexts
 
         public virtual DbSet<Atendimento> Atendimentos { get; set; }
         public virtual DbSet<Clinica> Clinicas { get; set; }
-        public virtual DbSet<Dono> Dono { get; set; }
+        public virtual DbSet<Dono> Donos { get; set; }
         public virtual DbSet<Pet> Pets { get; set; }
         public virtual DbSet<Raca> Racas { get; set; }
         public virtual DbSet<Situacao> Situacaos { get; set; }

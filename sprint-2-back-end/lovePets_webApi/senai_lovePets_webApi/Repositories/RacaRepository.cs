@@ -1,4 +1,5 @@
-﻿using senai_lovePets_webApi.Domains;
+﻿using senai_lovePets_webApi.Contexts;
+using senai_lovePets_webApi.Domains;
 using senai_lovePets_webApi.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -9,34 +10,40 @@ namespace senai_lovePets_webApi.Repositories
 {
     public class RacaRepository : IRacaRepository
     {
+        lovePetsContext ctx = new lovePetsContext();
+
         public void Atualizar(int idRaca, Raca RacaAtualizada)
         {
-            Raca racaBuscar = BuscarPorId(idRaca);
+            Raca RacaBuscar = BuscarPorId(idRaca);
 
             if (RacaAtualizada.NomeRaca != null)
             {
-               racaBuscar.NomeRaca = RacaAtualizada.NomeRaca;
+                RacaBuscar.NomeRaca = RacaAtualizada.NomeRaca;
             }
         }
 
         public Raca BuscarPorId(int idRaca)
         {
-            throw new NotImplementedException();
+            return ctx.Racas.Find(idRaca);
         }
 
         public void Cadastrar(Raca novaRaca)
         {
-            throw new NotImplementedException();
+            ctx.Racas.Add(novaRaca);
+
+            ctx.SaveChanges();
         }
 
         public void Deletar(int idRaca)
         {
-            throw new NotImplementedException();
+            ctx.Racas.Remove(BuscarPorId(idRaca));
+
+            ctx.SaveChanges();
         }
 
         public List<Raca> ListarTodos()
         {
-            throw new NotImplementedException();
+            return ctx.Racas.ToList();
         }
     }
 }

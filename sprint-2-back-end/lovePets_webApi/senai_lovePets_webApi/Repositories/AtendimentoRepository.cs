@@ -112,9 +112,7 @@ namespace senai_lovePets_webApi.Repositories
         /// <returns>Uma lista de atendimentos de um usuário específico</returns>
         public List<Atendimento> ListarMeus(int idUsuario)
         {
-            return ctx.Atendimentos
-                .Where(a => a.IdVeterinarioNavigation.IdUsuario == idUsuario || a.IdPetNavigation.IdUsuario == idUsuario)
-                .ToList();
+            throw new NotImplementedException();
         }
 
         /// <summary>

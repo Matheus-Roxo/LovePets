@@ -284,3 +284,14 @@ C:\Users\47398092814\Desktop\LovePets\sprint-2-back-end\lovePets_webApi\senai_lo
 C:\Users\47398092814\Desktop\LovePets\sprint-2-back-end\lovePets_webApi\senai_lovePets_webApi\obj\Debug\net5.0\senai_lovePets_webApi.xml
 C:\Users\47398092814\Desktop\LovePets\sprint-2-back-end\lovePets_webApi\senai_lovePets_webApi\obj\Debug\net5.0\senai_lovePets_webApi.pdb
 C:\Users\47398092814\Desktop\LovePets\sprint-2-back-end\lovePets_webApi\senai_lovePets_webApi\obj\Debug\net5.0\senai_lovePets_webApi.genruntimeconfig.cache
+C:\Users\44602584802\Desktop\LovePets\lovePets\sprint-2-back-end\lovePets_webApi\senai_lovePets_webApi\obj\Debug\net5.0\senai_lovePets_webApi.csproj.AssemblyReference.cache
+C:\Users\44602584802\Desktop\LovePets\lovePets\sprint-2-back-end\lovePets_webApi\senai_lovePets_webApi\obj\Debug\net5.0\senai_lovePets_webApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\44602584802\Desktop\LovePets\lovePets\sprint-2-back-end\lovePets_webApi\senai_lovePets_webApi\obj\Debug\net5.0\senai_lovePets_webApi.AssemblyInfoInputs.cache
+C:\Users\44602584802\Desktop\LovePets\lovePets\sprint-2-back-end\lovePets_webApi\senai_lovePets_webApi\obj\Debug\net5.0\senai_lovePets_webApi.AssemblyInfo.cs
+C:\Users\44602584802\Desktop\LovePets\lovePets\sprint-2-back-end\lovePets_webApi\senai_lovePets_webApi\obj\Debug\net5.0\senai_lovePets_webApi.csproj.CoreCompileInputs.cache
+C:\Users\44602584802\Desktop\LovePets\lovePets\sprint-2-back-end\lovePets_webApi\senai_lovePets_webApi\obj\Debug\net5.0\senai_lovePets_webApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\44602584802\Desktop\LovePets\lovePets\sprint-2-back-end\lovePets_webApi\senai_lovePets_webApi\obj\Debug\net5.0\senai_lovePets_webApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\44602584802\Desktop\LovePets\lovePets\sprint-2-back-end\lovePets_webApi\senai_lovePets_webApi\obj\Debug\net5.0\senai_lovePets_webApi.dll
+C:\Users\44602584802\Desktop\LovePets\lovePets\sprint-2-back-end\lovePets_webApi\senai_lovePets_webApi\obj\Debug\net5.0\ref\senai_lovePets_webApi.dll
+C:\Users\44602584802\Desktop\LovePets\lovePets\sprint-2-back-end\lovePets_webApi\senai_lovePets_webApi\obj\Debug\net5.0\senai_lovePets_webApi.xml
+C:\Users\44602584802\Desktop\LovePets\lovePets\sprint-2-back-end\lovePets_webApi\senai_lovePets_webApi\obj\Debug\net5.0\senai_lovePets_webApi.pdb

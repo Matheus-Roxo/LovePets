@@ -12,38 +12,38 @@ namespace senai_lovePets_webApi.Repositories
     {
         lovePetsContext ctx = new lovePetsContext();
 
-        public void Atualizar(int idDono, Dono donoAtualizado)
+        public void Atualizar(int idDono, Dono DonoAtualizado)
         {
-            Dono donoBuscar = BuscarPorId(idDono);
+            Dono DonoBuscar = BuscarPorId(idDono);
 
-            if (donoAtualizado.NomeDono != null)
+            if (DonoAtualizado.NomeDono != null)
             {
-                donoBuscar.NomeDono = donoAtualizado.NomeDono;
+                DonoBuscar.NomeDono = DonoAtualizado.NomeDono;
             }
         }
 
         public Dono BuscarPorId(int idDono)
         {
-            return ctx.Dono.Find(idDono);
+            return ctx.Donos.Find(idDono);
         }
 
         public void Cadastrar(Dono novoDono)
         {
-            ctx.Dono.Add(novoDono);
+            ctx.Donos.Add(novoDono);
 
             ctx.SaveChanges();
         }
 
         public void Deletar(int idDono)
         {
-            ctx.Dono.Remove(BuscarPorId(idDono));
+            ctx.Donos.Remove(BuscarPorId(idDono));
 
             ctx.SaveChanges();
         }
 
         public List<Dono> ListarTodos()
         {
-            return ctx.Dono.ToList();
+            return ctx.Donos.ToList();
         }
     }
-};
+}

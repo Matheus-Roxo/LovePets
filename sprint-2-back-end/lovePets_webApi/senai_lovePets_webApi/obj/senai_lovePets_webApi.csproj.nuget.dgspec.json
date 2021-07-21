@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\44602584802\\Desktop\\projeto pets\\lovePets\\sprint-2-back-end\\lovePets_webApi\\senai_lovePets_webApi\\senai_lovePets_webApi.csproj": {}
+    "C:\\Users\\44602584802\\Desktop\\LovePets\\lovePets\\sprint-2-back-end\\lovePets_webApi\\senai_lovePets_webApi\\senai_lovePets_webApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\44602584802\\Desktop\\projeto pets\\lovePets\\sprint-2-back-end\\lovePets_webApi\\senai_lovePets_webApi\\senai_lovePets_webApi.csproj": {
+    "C:\\Users\\44602584802\\Desktop\\LovePets\\lovePets\\sprint-2-back-end\\lovePets_webApi\\senai_lovePets_webApi\\senai_lovePets_webApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\44602584802\\Desktop\\projeto pets\\lovePets\\sprint-2-back-end\\lovePets_webApi\\senai_lovePets_webApi\\senai_lovePets_webApi.csproj",
+        "projectUniqueName": "C:\\Users\\44602584802\\Desktop\\LovePets\\lovePets\\sprint-2-back-end\\lovePets_webApi\\senai_lovePets_webApi\\senai_lovePets_webApi.csproj",
         "projectName": "senai_lovePets_webApi",
-        "projectPath": "C:\\Users\\44602584802\\Desktop\\projeto pets\\lovePets\\sprint-2-back-end\\lovePets_webApi\\senai_lovePets_webApi\\senai_lovePets_webApi.csproj",
+        "projectPath": "C:\\Users\\44602584802\\Desktop\\LovePets\\lovePets\\sprint-2-back-end\\lovePets_webApi\\senai_lovePets_webApi\\senai_lovePets_webApi.csproj",
         "packagesPath": "C:\\Users\\44602584802\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\44602584802\\Desktop\\projeto pets\\lovePets\\sprint-2-back-end\\lovePets_webApi\\senai_lovePets_webApi\\obj\\",
+        "outputPath": "C:\\Users\\44602584802\\Desktop\\LovePets\\lovePets\\sprint-2-back-end\\lovePets_webApi\\senai_lovePets_webApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\44602584802\\AppData\\Roaming\\NuGet\\NuGet.Config",

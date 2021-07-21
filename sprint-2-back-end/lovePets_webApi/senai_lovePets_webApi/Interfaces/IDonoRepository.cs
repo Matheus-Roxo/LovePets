@@ -14,7 +14,7 @@ namespace senai_lovePets_webApi.Interfaces
 
         void Cadastrar(Dono novoDono);
 
-        void Atualizar(int idDono, Dono donoAtualizado);
+        void Atualizar(int idDono, Dono DonoAtualizado);
 
         void Deletar(int idDono);
     }
